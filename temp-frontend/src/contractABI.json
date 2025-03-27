@@ -1,0 +1,7 @@
+[
+    "function deposit() external payable",
+    "function sendPayment(address payable recipient, uint256 amount) external",
+    "function getBalance() public view returns (uint256)",
+    "function getTransactionHistory() public view returns (tuple(address sender, address recipient, uint256 amount, uint256 timestamp, bool completed)[])",
+    "function withdraw(uint256 amount) external"
+] 
